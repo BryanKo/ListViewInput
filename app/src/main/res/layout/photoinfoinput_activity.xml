@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/tvPhotoNameInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Photo's Name" />
+
+        <EditText
+            android:id="@+id/etPhotoNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPhotoNameInput"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="10dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvPhotoDateInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/etPhotoNameInput"
+            android:text="Date Taken" />
+
+        <EditText
+            android:id="@+id/etPhotoDateInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPhotoDateInput"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="10dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvPhotoDateTap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPhotoDateInput"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="18.5dp"
+            android:textSize="20dp"
+            android:text="Select Date" />
+
+        <TextView
+            android:id="@+id/tvPhotographerInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvPhotoDateTap"
+            android:text="Photographer" />
+
+        <EditText
+            android:id="@+id/etPhotographerInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPhotographerInput"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="10dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnInfoSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/etPhotographerInput"
+            android:text="Done" />
+
+
+
+    </RelativeLayout>
+</LinearLayout>
